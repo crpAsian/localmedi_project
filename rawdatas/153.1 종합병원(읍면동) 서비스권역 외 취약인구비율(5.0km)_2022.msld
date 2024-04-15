@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MapDocument xmlns="http://www.all4land.com" Type="1.0">
+    <Layer>
+        <Layer Type="FeatureLayer" Visible="true">
+            <PathID>153.1 종합병원(읍면동) 서비스권역 외 취약인구비율(5.0km)_2022</PathID>
+            <MaximumScale>1000000000000</MaximumScale>
+            <MinimumScale>0</MinimumScale>
+            <ClassBreakRenderer Field="value">
+                <ClassBreakValue>
+                    <Value>80</Value>
+                    <Label>80 - 100 이상</Label>
+                    <FillSymbol>
+                        <Color>#F1BC68</Color>
+                        <Opacity>120</Opacity>
+                        <Style>100</Style>
+                        <LineSymbol>
+                            <Color>#E6E6E6</Color>
+                            <Opacity>255</Opacity>
+                            <Style>0</Style>
+                            <Width>2</Width>
+                        </LineSymbol>
+                    </FillSymbol>
+                </ClassBreakValue>
+                <ClassBreakValue>
+                    <Value>60</Value>
+                    <Label>60 - 80 이상</Label>
+                    <FillSymbol>
+                        <Color>#D6AD94</Color>
+                        <Opacity>120</Opacity>
+                        <Style>100</Style>
+                        <LineSymbol>
+                            <Color>#E6E6E6</Color>
+                            <Opacity>255</Opacity>
+                            <Style>0</Style>
+                            <Width>2</Width>
+                        </LineSymbol>
+                    </FillSymbol>
+                </ClassBreakValue>
+                <ClassBreakValue>
+                    <Value>40</Value>
+                    <Label>40 - 60 이상</Label>
+                    <FillSymbol>
+                        <Color>#E6CEBF</Color>
+                        <Opacity>120</Opacity>
+                        <Style>100</Style>
+                        <LineSymbol>
+                            <Color>#E6E6E6</Color>
+                            <Opacity>255</Opacity>
+                            <Style>0</Style>
+                            <Width>2</Width>
+                        </LineSymbol>
+                    </FillSymbol>
+                </ClassBreakValue>
+                <ClassBreakValue>
+                    <Value>20</Value>
+                    <Label>20 - 40 이상</Label>
+                    <FillSymbol>
+                        <Color>#F3E6DF</Color>
+                        <Opacity>120</Opacity>
+                        <Style>100</Style>
+                        <LineSymbol>
+                            <Color>#E6E6E6</Color>
+                            <Opacity>255</Opacity>
+                            <Style>0</Style>
+                            <Width>2</Width>
+                        </LineSymbol>
+                    </FillSymbol>
+                </ClassBreakValue>
+                <ClassBreakValue>
+                    <Value>0</Value>
+                    <Label>0 - 20 이상</Label>
+                    <FillSymbol>
+                        <Color>#F3F1E0</Color>
+                        <Opacity>120</Opacity>
+                        <Style>100</Style>
+                        <LineSymbol>
+                            <Color>#E6E6E6</Color>
+                            <Opacity>255</Opacity>
+                            <Style>0</Style>
+                            <Width>2</Width>
+                        </LineSymbol>
+                    </FillSymbol>
+                </ClassBreakValue>
+                <ClassBreakValue>
+                    <Value>-999</Value>
+                    <Label>해당없음</Label>
+                    <FillSymbol>
+                        <Color>#C8C8C8</Color>
+                        <Opacity>120</Opacity>
+                        <Style>100</Style>
+                        <LineSymbol>
+                            <Color>#e6e6e6</Color>
+                            <Opacity>255</Opacity>
+                            <Style>0</Style>
+                            <Width>2</Width>
+                        </LineSymbol>
+                    </FillSymbol>
+                </ClassBreakValue>
+            </ClassBreakRenderer>
+        </Layer>
+    </Layer>
+</MapDocument>
